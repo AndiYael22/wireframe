@@ -1,0 +1,50 @@
+.card{
+    box-shadow: 1px 1px 5px gray;
+    margin: 5px;
+}
+.cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.card-item{
+    display: flex;
+    padding: 1rem;
+}
+.titulo{
+    background-color: rgb(61, 185, 144);
+    color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex
+}
+.footer1{
+    background-color: rgb(	16	43	62);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: rgb(16	43	62);
+    padding: 20px 0;   
+}
+nav{
+    display: flex;
+    justify-content: center;
+	width: auto;
+    top:50px;
+    right: 100px;
+
+    
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
