@@ -8,7 +8,7 @@ import { Menu } from './componentes/Menu';
 import { Informacion } from './componentes/Informacion';
 import "bootstrap/dist/css/bootstrap.min.css"
 import { Regiones } from './componentes/Regiones';
-import { Legendarios } from './componentes/Legendarios';
+import  Legendarios  from './componentes/Legendarios';
 import { BrowserRouter as Router } from 'react-router-dom';
 function App() {
   return (

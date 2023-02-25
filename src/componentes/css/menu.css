@@ -17,7 +17,8 @@
   }
   
   .perfil {
- 
+    color: black;
+    background-color:rgb(59, 255, 145);
     list-style: none;
     padding-left: 0;
     display: inline-flex;

@@ -7,9 +7,7 @@ export const Regiones = () => {
 
   const [posicion, setPosicion] = useState(0);
   const [velocidad, setVelocidad] = useState(3);
-
   imagenes.sort((a, b) => a.title.localeCompare(b.title));
-
   useEffect(() => {
     const intervalId = setInterval(() => {
       setPosicion(posicion => {
@@ -24,9 +22,7 @@ export const Regiones = () => {
 
     return () => clearInterval(intervalId);
   }, [velocidad]);
-
   return (
-   
     <motion.div className='Regiones' id="regiones">
          <p className='tituloregiones'>Regiones pokemon</p>
       <motion.div className="slider" style={{x: posicion}} drag="x" dragConstraints={{right:0, left:-5478}}>

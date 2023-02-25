@@ -1,10 +1,18 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import "./css/nav+header+footer.css";
+import titulo from "../imagenes/footer/pokemon.png"
+import pokebola from "../imagenes/footer/pokebola.png"
 
 export const Header = () => {
   return (
     <header>
+      <div className='logo'>
+      <img className='pokebola' src={pokebola} alt="" />
+      
+        <img className='titulo1' src={titulo} alt="" />
+        <img className='pokebola' src={pokebola} alt="" />
+        </div>
       <nav className="opciones">
         <ul>
           <li>
