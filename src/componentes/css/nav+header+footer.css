@@ -1,0 +1,51 @@
+
+.footer1{
+    background-color: rgb(16, 43, 62);
+    width: 100%;height: 170px;
+    display: flex;
+    justify-content: center;
+ }
+ 
+ header{
+   
+   top: 0;
+   left: 0;
+   width: 100%;
+   background-color: rgb(16, 43, 62);
+   padding: 20px 0;  
+   color:rgb(59, 255, 145); 
+   font-weight: bold;
+   font-size: 20px;
+}
+
+ 
+ nav{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    top: 50px;
+    right: 100px;
+ }
+ 
+ nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+ }
+ 
+ 
+ #boton-arriba {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color:  rgb(16, 43, 62);
+   color:rgb(59, 255, 145); 
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ .historia{
+   color: white;
+width: 100vh;
+margin: auto;
+ }

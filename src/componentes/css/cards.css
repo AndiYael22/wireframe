@@ -1,0 +1,77 @@
+
+.cards{
+    position: relative;
+    border-radius: 5px;
+    border:rgb(16, 43, 62) solid 2px;
+    margin: 5px;
+    justify-content: center;
+    display: inline-block;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 20px;
+    padding: 30px;
+    width: 250px;
+    height: 330px;
+    background-color: rgb(206, 216, 225);
+    color: rgb(16, 43, 62);
+    clear: both;
+    font-weight: bold;
+   
+ }
+ 
+ .card-footer{
+    height: 25px;
+    margin: 0;
+    text-align: start;
+ }
+ 
+ .habilidades{
+    text-align: start;
+    margin-bottom: 0;
+ }
+ .habilidadess1{
+    color: rgb(16, 43, 62);
+    list-style-type: decimal;
+    width: 150px;
+   
+   
+ }
+ .card-body{
+    background-color: rgb(16, 43, 62);
+    border-radius: 10px;
+    width: 220px;
+    height: 120px;
+    margin-top: -17px;
+   margin-left: -17px;
+ }
+ .card-item{
+    display: flex;
+    padding: 1rem;
+ }
+ 
+ .piedecard {
+    position: absolute;
+    font-size:large; 
+    font-weight: bold;
+    bottom: 0; 
+    margin-top: -20px;
+    border-radius: 5px;
+    border: rgb(16, 43, 62) solid 2px;
+    height: 40px;
+    width: 250px;
+    margin-left: -32px;
+    background-color: rgb(206, 216, 225);
+    clear: both;
+    color: black;
+  }
+ .titulo{
+   
+   
+    background-color: rgb(61, 185, 144);
+    color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+ }

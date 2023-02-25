@@ -1,21 +1,19 @@
 import React from 'react'
 import { CardP } from './CardP'
-import  "./cards.css"
+import  "./css/cards.css"
 
-export const Cards = ({results} ) => {
+
+export const Cards = ({ results }) => {
   return (
-    <div className='container'>
-        
-     <ul className='cards'>
-    {
-    results.map(p=>(
-        <li className='card-item' key={p.name}>
-             <CardP url={p.url}/>
-        </li>
-    ))
-    }
-  </ul>
-
+    <div className='container' >
+      <div className='row'>
+        {results.map(p => (
+          <div className='col-md-4 mb-3' key={p.name}>
+            <CardP url={p.url}/>
+          </div>
+          
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};

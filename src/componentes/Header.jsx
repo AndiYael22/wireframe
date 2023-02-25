@@ -1,16 +1,30 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-scroll';
+import "./css/nav+header+footer.css";
 
 export const Header = () => {
   return (
     <header>
-         <nav className="menu">
+      <nav className="opciones">
         <ul>
-            <li><a href="">Opcion1</a> </li>
-            <li><a href="">Opcion2</a> </li>
-            <li><a href="">Opcion3</a> </li>
-           
+          <li>
+            <Link to="inicio" smooth={true} duration={500}>
+              Inicio
+            </Link>
+          </li>
+          <li>
+            <Link to="pokemones" smooth={true} duration={500}>
+              Pokemones
+            </Link>
+          </li>
+          <li>
+            <Link to="regiones" smooth={true} duration={500}>
+              Regiones
+            </Link>
+          </li>
         </ul>
-</nav>
+      </nav>
+      <button id="boton-arriba" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>Ir arriba</button>
     </header>
-  )
-}
+  );
+};
