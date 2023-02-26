@@ -5,6 +5,9 @@
     height: 390px;
     margin-bottom: 20px;
 }
+.historia{
+    font-size: 1vw;
+}
 
 .prota{
     width: 18%;
@@ -13,3 +16,23 @@
    margin: -100px 20px 20px 0px;
     display: inline-flex;
 }
+
+@media screen and (max-width: 768px) {
+    /* ajustar estilos para pantallas más pequeñas */
+    .informacion {
+      height: auto;
+      
+      padding-bottom: 50px;
+    }
+    .historia{
+        width: 400px;
+        font-size: 3vw;
+    }
+  
+    .prota {
+        margin-top: 0px;
+      width: 27%;
+ height: 45%;
+      margin-right: 0;
+    }
+  }
